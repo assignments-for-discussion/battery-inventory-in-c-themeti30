@@ -46,8 +46,6 @@ void testAdditionalCase() {
   assert(counts.failed == 2);   // Two batteries with SoH below 65%
   printf("Additional Test Done counting :)\n");
 }
-
-
 int main() {
   testBucketingByHealth();
   testAdditionalCase();
